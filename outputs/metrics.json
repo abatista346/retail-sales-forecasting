@@ -1,0 +1,17 @@
+{
+  "baseline": {
+    "test_days": 56,
+    "naive": {
+      "model": "naive (t-1)",
+      "rmse": 6278.83,
+      "mae": 5091.01,
+      "mape_pct": 23.87
+    },
+    "seasonal_naive": {
+      "model": "seasonal_naive (t-7)",
+      "rmse": 11951.33,
+      "mae": 9575.76,
+      "mape_pct": 81.11
+    }
+  }
+}
