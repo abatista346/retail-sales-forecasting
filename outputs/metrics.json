@@ -13,5 +13,11 @@
       "mae": 9575.76,
       "mape_pct": 81.11
     }
+  },
+  "xgboost": {
+    "model": "xgboost",
+    "rmse": 8857.19,
+    "mae": 6226.03,
+    "mape_pct": 50.63
   }
 }
