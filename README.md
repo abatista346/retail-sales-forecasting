@@ -1,5 +1,7 @@
 # Retail Sales Forecasting
 
+[![tests](https://github.com/abatista346/retail-sales-forecasting/actions/workflows/tests.yml/badge.svg)](https://github.com/abatista346/retail-sales-forecasting/actions/workflows/tests.yml)
+
 > Time-series forecasting pipeline for daily e-commerce revenue, benchmarking a gradient boosting model against naive baselines on real transaction data.
 
 ## Problem
@@ -81,6 +83,8 @@ outputs/
 5. `python src/train_baseline.py`
 6. `python src/train_model.py`
 7. Optionally, open `notebooks/eda_storytelling.ipynb` for the full visual EDA
+
+Run the test suite with `pip install pytest && pytest` — it uses synthetic data, so no dataset download is needed.
 
 ## What I'd Improve Next
 
